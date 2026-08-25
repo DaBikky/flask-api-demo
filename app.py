@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Intentionally hard-coded for the first commit.
 # This is a fake credential for the case study.
-API_KEY = "FAKE_DEMO_API_KEY_123456789"
+API_KEY = "AKIAIOSFODNN7EXAMPLE"
 
 
 @app.route("/health", methods=["GET"])
